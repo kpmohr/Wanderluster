@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i|Lato:300,300i,400,400i,700,700i&subset=latin-ext');
+
+body {
+  background-color: #D5D5D5;
+  font-family: 'Lato', sans-serif;
+  color: #6D7993;
+  font-size: 14px;
+}
+
+a {
+  color: #9099A2;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #96858F;
+}
+
+.alert {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #96858F;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.profile {
+  background-color: rgba(250,250,250,0.9);
+  border-radius: 10px;
+  padding: 5px 10px 10px 10px;
+}
+
+.profile-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 150px 15px 125px 15px;
+  overflow: auto;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+input[type=email], input[type=password], input[type=text], input[type=textarea] {
+  background-color: #FFFFFF;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  font-size: 14px;
+}
+
+input[type=submit] {
+  background-color: #96858F;
+  border-radius: 10px;
+  box-shadow: 2px 1px rgba(150,150,150,0.8);
+  color: white;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  box-shadow: 2px 1px rgba(250,250,250,0.8);
+  color: #96858F;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid grey;
+  -webkit-text-fill-color: #6D7993;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  transition: white 5000s ease-in-out 0s;
+}
+
+nav {
+  align-items: center;
+  background-color: #6D7993;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+  max-height: 150px;
+  z-index: 150;
+}
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 150px;
+  margin: 0 0 10px 0;
+}
+
+.sign-in {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logout input[type=submit] {
+  background-color: #96858F;
+  border-radius: 10px;
+  box-shadow: 2px 1px rgba(150,150,150,0.8);
+  color: white;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+}
+
+.logout input[type=submit]:hover {
+  background-color: white;
+  box-shadow: 2px 1px rgba(250,250,250,0.8);
+  color: #96858F;
+}
+
+.register {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.update-toggle-button {
+  margin: 10px 0 0 0;
+}
+
+.sub-div {
+  display: flex;
+  flex-direction: column;
+  margin: 7px;
+  max-width: 30%;
+  text-align: center;
+}
+
+label {
+  margin: 3px 0 3px 0;
+  font-size: 14px;
+}
+
+select {
+  font-family: 'Lato', sans-serif;
+  margin: 3px 0 3px 0;
+}
+
+.currency-form label {
+  font-style: italic;
+}
+
+.timezone-form label {
+  font-style: italic;
+}
+
+.buttons-trips {
+  display: flex;
+  flex-direction: row;
+}
+
+.hexagonBig {
+  background-color: rgba(250,250,250,0.75);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 0 0 0;
+}
+
+.title {
+  color: rgb(150,133,143);
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 1px 2px rgb(213,213,213);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.answer {
+  font-size: 20px;
+}
+
+.div-toggle {
+  padding: 5px;
+}
+
+.currency-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/*.currency-form input[type=text] {
+  color: white;
+  background-color: #9099A2;
+}
+
+input::placeholder {
+  color: rgb(210,210,210);
+}*/
+
+.button-toggle {
+  /*background-color: #9099A2;*/
+  color: white;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 2px 1px rgba(109,121,147, 0.8);
+  z-index: 100;
+  margin: 20px auto;
+  padding: 3px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.small-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+.timezone-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.translator-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 34px;
+  text-shadow: 2px 2px rgba(150,133,143,0.9);
+}
+
+h2 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.react-selectize {
+    width: 40% !important;
+}
+
+.dropdown-menu {
+  width: 100% !important
+}
+.example {
+  margin: 40px 20px;
+}
+
+/*.label {
+  display:block;
+  font-family: Roboto, sans-serif;
+  padding: 12px 0 4px 2px
+}*/
+
+
+/*Took this from this magical place http://csshexagon.com/*/
+
+.hexagon {
+  position: relative;
+  width: 160px;
+  height: 92.38px;
+  background-color: #9099A2;
+  margin: 46.19px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 113.14px;
+  height: 113.14px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 23.4315px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.hexagon:before {
+  top: -56.5685px;
+}
+
+.hexagon:after {
+  bottom: -56.5685px;
+}
+
+/*cover up extra shadows*/
+.hexagon span {
+  display: block;
+  position: absolute;
+  top:0px;
+  left: 0;
+  width:160px;
+  height:92.3760px;
+  z-index: 2;
+  background: inherit;
+}
+
+/*This is the bigger one*/
+
+/*.hexagonBig {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #6D7993;
+  margin: 86.60px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.hexagonBig:before,
+.hexagonBig:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 43.9340px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.hexagonBig:before {
+  top: -106.0660px;
+}
+
+.hexagonBig:after {
+  bottom: -106.0660px;
+}
+
+/*cover up extra shadows*/
+/*.hexagonBig span {
+  display: block;
+  position: absolute;
+  top:0px;
+  left: 0;
+  width:300px;
+  height:173.2051px;
+  z-index: 2;
+  background: inherit;
+}*/
